@@ -6,8 +6,8 @@ require 'sinatra'
 authorize_url = "https://graph.facebook.com/oauth/authorize"
 access_token_url = "https://graph.facebook.com/oauth/access_token"
 
-fetcher_app_id = "438992236120376"
-client_secret = "515d2129deab162281220da6e4d7eb05"
+fetcher_app_id = "???"
+client_secret = "???"
 redirect_uri = "http://localhost:4567/oauth_callback"
 
 get "/" do

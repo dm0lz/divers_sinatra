@@ -6,8 +6,8 @@ require 'omniauth-facebook'
 require 'pry'
 
 SCOPE = 'email,read_stream,publish_stream'
-ENV['APP_ID'] = '268692613242267'
-ENV['APP_SECRET'] = '49a2edd10567a5d8e430fb53c6e111d6'
+ENV['APP_ID'] = '??'
+ENV['APP_SECRET'] = '??'
 
 class App < Sinatra::Base
   

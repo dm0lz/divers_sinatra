@@ -4,8 +4,8 @@ require 'omniauth/oauth'
 enable :sessions
 
 #Here you have to put your own Application ID and Secret
-APP_ID = "352997681447216"
-APP_SECRET = "e1301dfd4f639019c8e3c3140b4cab31"
+APP_ID = "???"
+APP_SECRET = "???"
 
 use OmniAuth::Builder do
   provider :facebook, APP_ID, APP_SECRET, { :scope => 'email, status_update, publish_stream' }
